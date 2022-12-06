@@ -96,7 +96,6 @@ const Explore = () => {
 					className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-[50px] md:px-[80px] items-center gap-5'
 					data-aos='fade-right'>
 					{datas.map((item) => {
-						console.log(item);
 						return (
 							<div>
 								<div className='h-[250px] flex gap-x-5 overflow-hidden mb-2'>

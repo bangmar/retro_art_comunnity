@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body::-webkit-scrollbar {
+    display: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html,
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.basic-transition {
+    @apply transition-all ease-in-out duration-300;
+}
+
+.wipe-transition {
+    @apply transition-all ease-linear duration-300;
+}
+
+.card-container {
+    position: relative;
+    width: auto;
+    height: 380px;
+    overflow: hidden;
+}
+
+.the-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease-in-out;
+}
+
+.the-card:hover {
+    transform: rotateY(180deg);
+}
+
+.front-card,
+.back-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.back-card {
+    transform: rotateY(180deg);
 }

@@ -10,7 +10,7 @@ const App = () => {
 			<BrowserRouter basename='/retro_art_comunnity'>
 				<GeneralProvider>
 					<Routes>
-						<Route path='/retro_art_comunnity' exact element={<About />} />
+						<Route path='/' exact element={<About />} />
 						<Route
 							path='/home'
 							element={

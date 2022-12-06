@@ -3,7 +3,7 @@ import { Link as ScrollTo } from "react-scroll";
 
 const NavAbout = () => {
 	return (
-		<div className='hidden text-slate-50 md:flex justify-center items-center  pt-[35px]'>
+		<div className='hidden text-slate-50 md:flex lg:justify-center items-center  pt-[35px]'>
 			<div className='text-[1em] md:text-[1.2em] flex gap-x-4 items-center'>
 				<ScrollTo
 					to='what-we-do'

@@ -27,7 +27,7 @@ const Cover = () => {
 			<LoginModal isLoginModal={isLoginModal} setLoginModal={setLoginModal} />
 
 			<div
-				className='flex flex-col md:items-center justify-center text-costum-orange font-bold pb-20 h-screen pt-14'
+				className='flex flex-col lg:items-center justify-center text-costum-orange font-bold pb-20 h-screen pt-14'
 				data-aos='zoom-in'>
 				<h1 className='text-[35px] md:text-[55px]'>MANIAC</h1>
 				<h1 className='text-[55px] md:text-[75px] leading-[1em] md:leading-none md:-mt-2 mb-2'>

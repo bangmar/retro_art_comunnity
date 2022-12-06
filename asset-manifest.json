@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/retro_art_comunnity/static/css/main.439bf910.css",
-    "main.js": "/retro_art_comunnity/static/js/main.cfd63070.js",
+    "main.js": "/retro_art_comunnity/static/js/main.74379030.js",
     "static/media/retrotv.png": "/retro_art_comunnity/static/media/retrotv.f53a2bf96a5e7598ed23.png",
     "static/media/mario3.jpg": "/retro_art_comunnity/static/media/mario3.006df58edc38c05c72f2.jpg",
     "static/media/retrocd.png": "/retro_art_comunnity/static/media/retrocd.4c9887a5e9d2cdc43965.png",
@@ -13,10 +13,10 @@
     "static/media/retrocam.png": "/retro_art_comunnity/static/media/retrocam.238fd7664aaa93f63f7a.png",
     "index.html": "/retro_art_comunnity/index.html",
     "main.439bf910.css.map": "/retro_art_comunnity/static/css/main.439bf910.css.map",
-    "main.cfd63070.js.map": "/retro_art_comunnity/static/js/main.cfd63070.js.map"
+    "main.74379030.js.map": "/retro_art_comunnity/static/js/main.74379030.js.map"
   },
   "entrypoints": [
     "static/css/main.439bf910.css",
-    "static/js/main.cfd63070.js"
+    "static/js/main.74379030.js"
   ]
 }

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/retro_art_comunnity/static/css/main.86ac54da.css",
-    "main.js": "/retro_art_comunnity/static/js/main.5ede3aca.js",
-    "static/media/upcomingbg.jpg": "/retro_art_comunnity/static/media/upcomingbg.dbdb6670d6fa0e38704d.jpg",
+    "main.css": "/retro_art_comunnity/static/css/main.439bf910.css",
+    "main.js": "/retro_art_comunnity/static/js/main.cfd63070.js",
     "static/media/retrotv.png": "/retro_art_comunnity/static/media/retrotv.f53a2bf96a5e7598ed23.png",
     "static/media/mario3.jpg": "/retro_art_comunnity/static/media/mario3.006df58edc38c05c72f2.jpg",
     "static/media/retrocd.png": "/retro_art_comunnity/static/media/retrocd.4c9887a5e9d2cdc43965.png",
     "static/media/mario.jpg": "/retro_art_comunnity/static/media/mario.1163f001d51eb41b2730.jpg",
+    "static/media/banner.jpg": "/retro_art_comunnity/static/media/banner.620c9a73aedbe85ceecd.jpg",
     "static/media/bg.png": "/retro_art_comunnity/static/media/bg.43aa2169ea5150157c1d.png",
     "static/media/mario2.jpg": "/retro_art_comunnity/static/media/mario2.cfd19c4b4acd6e2b4ccb.jpg",
     "static/media/retrocar.png": "/retro_art_comunnity/static/media/retrocar.666a2f2506cb6ecb906b.png",
     "static/media/retrocam.png": "/retro_art_comunnity/static/media/retrocam.238fd7664aaa93f63f7a.png",
     "index.html": "/retro_art_comunnity/index.html",
-    "main.86ac54da.css.map": "/retro_art_comunnity/static/css/main.86ac54da.css.map",
-    "main.5ede3aca.js.map": "/retro_art_comunnity/static/js/main.5ede3aca.js.map"
+    "main.439bf910.css.map": "/retro_art_comunnity/static/css/main.439bf910.css.map",
+    "main.cfd63070.js.map": "/retro_art_comunnity/static/js/main.cfd63070.js.map"
   },
   "entrypoints": [
-    "static/css/main.86ac54da.css",
-    "static/js/main.5ede3aca.js"
+    "static/css/main.439bf910.css",
+    "static/js/main.cfd63070.js"
   ]
 }

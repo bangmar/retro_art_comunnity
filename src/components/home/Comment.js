@@ -5,8 +5,6 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { AppContext } from "../../context/AppContext";
 import { db } from "../../lib/firebase-config";
 
-import upcomingbg from "../../assets/img/upcomingbg.jpg";
-
 const Comment = () => {
 	const [comment, setComment] = useState("");
 	const [listComments, setListComment] = useState([]);
@@ -96,18 +94,6 @@ const Comment = () => {
 							</div>
 						);
 					})}
-				</div>
-			</div>
-			<div className='mt-10 '>
-				<h1 className='font-oswald bg-orange-hover px-3 py-1 w-fit text-white'>
-					UPCOMING ART
-				</h1>
-				<div
-					className='bg-costum-orange flex items-center justify-center bg-fixed   h-[200px]'
-					style={{ backgroundImage: `url(${upcomingbg})` }}>
-					<div className=' font-oswald text-white text-[2em]  '>
-						<h1>Metropolitan Museum of Art</h1>
-					</div>
 				</div>
 			</div>
 		</div>

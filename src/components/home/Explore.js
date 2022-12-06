@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import WebsiteBtn from "./WebsiteBtn";
 import Loading from "../Loading";
@@ -8,6 +7,7 @@ import { RxPinTop } from "react-icons/rx";
 
 import { AppContext } from "../../context/AppContext";
 import Comment from "./Comment";
+import { async } from "@firebase/util";
 
 const Explore = () => {
 	const [datas, setDatas] = useState([]);
@@ -15,20 +15,37 @@ const Explore = () => {
 	const { isShowTopBtn } = AppContext();
 
 	useEffect(() => {
-		const fecthData = () => {
-			axios
-				.get(
-					`https://www.rijksmuseum.nl/api/nl/collection?key=G1uOuCj6&involvedMaker=Rembrandt+van+Rijn`
-				)
-
+		const fecthData = async () => {
+			await fetch(
+				`https://www.rijksmuseum.nl/api/nl/collection?key=G1uOuCj6&involvedMaker=Rembrandt+van+Rijn`
+			)
 				.then((res) => {
-					const arts = res.data.artObjects;
+					return res.json();
+				})
+				.then((data) => {
+					const arts = data.artObjects;
 					setDatas({ arts });
 					setInterval(() => {
 						setPending(false);
 					}, 2500);
 				})
-				.catch((err) => {});
+				.catch((err) => {
+					console.log(err);
+				});
+			// axios
+			// 	.get(
+			// 		`https://www.rijksmuseum.nl/api/nl/collection?key=G1uOuCj6&involvedMaker=Rembrandt+van+Rijn`
+			// 	)
+			// 	.then((res) => {
+			// 		const arts = res.data.artObjects;
+			// 		setDatas({ arts });
+			// 		setInterval(() => {
+			// 			setPending(false);
+			// 		}, 2500);
+			// 	})
+			// 	.catch((err) => {
+			// 		console.log(err);
+			// 	});
 		};
 		return () => {
 			fecthData();

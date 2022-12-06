@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/retro_art_comunnity/static/css/main.432a2b6b.css",
-    "main.js": "/retro_art_comunnity/static/js/main.9778090d.js",
+    "main.js": "/retro_art_comunnity/static/js/main.19c53a3a.js",
     "static/media/upcomingbg.jpg": "/retro_art_comunnity/static/media/upcomingbg.dbdb6670d6fa0e38704d.jpg",
     "static/media/retrotv.png": "/retro_art_comunnity/static/media/retrotv.f53a2bf96a5e7598ed23.png",
     "static/media/mario3.jpg": "/retro_art_comunnity/static/media/mario3.006df58edc38c05c72f2.jpg",
@@ -13,10 +13,10 @@
     "static/media/retrocam.png": "/retro_art_comunnity/static/media/retrocam.238fd7664aaa93f63f7a.png",
     "index.html": "/retro_art_comunnity/index.html",
     "main.432a2b6b.css.map": "/retro_art_comunnity/static/css/main.432a2b6b.css.map",
-    "main.9778090d.js.map": "/retro_art_comunnity/static/js/main.9778090d.js.map"
+    "main.19c53a3a.js.map": "/retro_art_comunnity/static/js/main.19c53a3a.js.map"
   },
   "entrypoints": [
     "static/css/main.432a2b6b.css",
-    "static/js/main.9778090d.js"
+    "static/js/main.19c53a3a.js"
   ]
 }

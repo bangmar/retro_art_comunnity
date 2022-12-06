@@ -28,9 +28,7 @@ const Explore = () => {
 						setPending(false);
 					}, 2500);
 				})
-				.catch((err) => {
-					console.log("Status:", err);
-				});
+				.catch((err) => {});
 		};
 		return () => {
 			fecthData();

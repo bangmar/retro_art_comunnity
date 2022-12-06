@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 const App = () => {
 	return (
 		<React.Fragment>
-			<BrowserRouter basename='/retro_art_comunnity'>
+			<BrowserRouter basename='/'>
 				<GeneralProvider>
 					<Routes>
 						<Route path='/' exact element={<About />} />

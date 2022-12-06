@@ -11,9 +11,7 @@ const Ask = () => {
 		try {
 			await ask(askText);
 			setAskText("");
-		} catch (err) {
-			console.log(err);
-		}
+		} catch (err) {}
 	};
 
 	return (

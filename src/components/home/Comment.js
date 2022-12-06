@@ -51,8 +51,6 @@ const Comment = () => {
 		};
 	}, []);
 
-	console.log(reply);
-
 	return (
 		<div className=' w-screen mb-16 px-[50px] md:px-[80px]'>
 			<h1 className='font-oswald font-bold mb-5'>Comments</h1>

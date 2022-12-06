@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MIDTERM-RETRO_ART_COMUNNITY/static/css/main.432a2b6b.css",
+    "main.js": "/MIDTERM-RETRO_ART_COMUNNITY/static/js/main.22fe54fa.js",
+    "static/media/upcomingbg.jpg": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/upcomingbg.dbdb6670d6fa0e38704d.jpg",
+    "static/media/retrotv.png": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/retrotv.f53a2bf96a5e7598ed23.png",
+    "static/media/mario3.jpg": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/mario3.006df58edc38c05c72f2.jpg",
+    "static/media/retrocd.png": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/retrocd.4c9887a5e9d2cdc43965.png",
+    "static/media/mario.jpg": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/mario.1163f001d51eb41b2730.jpg",
+    "static/media/bg.png": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/bg.43aa2169ea5150157c1d.png",
+    "static/media/mario2.jpg": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/mario2.cfd19c4b4acd6e2b4ccb.jpg",
+    "static/media/retrocar.png": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/retrocar.666a2f2506cb6ecb906b.png",
+    "static/media/retrocam.png": "/MIDTERM-RETRO_ART_COMUNNITY/static/media/retrocam.238fd7664aaa93f63f7a.png",
+    "index.html": "/MIDTERM-RETRO_ART_COMUNNITY/index.html",
+    "main.432a2b6b.css.map": "/MIDTERM-RETRO_ART_COMUNNITY/static/css/main.432a2b6b.css.map",
+    "main.22fe54fa.js.map": "/MIDTERM-RETRO_ART_COMUNNITY/static/js/main.22fe54fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.432a2b6b.css",
+    "static/js/main.22fe54fa.js"
+  ]
+}

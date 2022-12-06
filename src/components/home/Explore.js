@@ -52,6 +52,8 @@ const Explore = () => {
 		};
 	}, []);
 
+	console.log(datas);
+
 	if (!isPending) {
 		const bg = datas.arts[0].headerImage.url;
 		return (

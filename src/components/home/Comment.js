@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { FaRegUserCircle } from "react-icons/fa";
 import { AppContext } from "../../context/AppContext";
 import { db } from "../../lib/firebase-config";
+import ReplyList from "./ReplyList";
 
 const Comment = () => {
 	const [comment, setComment] = useState("");
@@ -27,21 +28,6 @@ const Comment = () => {
 			setListComment(
 				snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() }))
 			);
-		});
-
-		return () => {
-			dataLoad();
-		};
-	}, []);
-
-	const [reply, setReply] = useState();
-	useEffect(() => {
-		const ress = query(
-			collection(db, "comment/comment/84uFXrkAEbjr1a30ir29/"),
-			orderBy("commentedAt", "desc")
-		);
-		const dataLoad = onSnapshot(ress, (snapshot) => {
-			setReply(snapshot.docs.map((doc) => ({ id: doc.id })));
 		});
 
 		return () => {
@@ -78,11 +64,11 @@ const Comment = () => {
 						return (
 							<div className='flex gap-3 items-start mb-3 w-fit' key={item.id}>
 								<FaRegUserCircle size={"24px"} />
-								<div className='font-inter'>
+								<div className='font-inter mb-2'>
 									<h1 className='font-medium mb-1 text-[1em]'>
 										{item.data.by === user.email ? "You" : item.data.by}
 									</h1>
-									<p className=' text-[0.8em] w-52 bg-orange-hover/70 text-white py-3 px-5 rounded-lg rounded-tl-none'>
+									<p className=' text-[0.8em]  bg-orange-hover/70 text-white py-3 px-5 rounded-lg rounded-tl-none'>
 										{item.data.comment}
 									</p>
 									<p className='text-[0.7em] text-end'>
@@ -90,6 +76,7 @@ const Comment = () => {
 											commentedAt.getHours() + " : " + commentedAt.getMinutes()
 										} WIB`}
 									</p>
+									<ReplyList path={`comment/${item.id}/replyBy`} />
 								</div>
 							</div>
 						);

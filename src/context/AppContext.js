@@ -85,8 +85,15 @@ export const GeneralProvider = ({ children }) => {
 	};
 
 	const submitComment = (comment) => {
-		return addDoc(collection(db, "comment"), {
+		return setDoc(doc(db, "comment", comment), {
 			comment: comment,
+			by: user.email,
+			commentedAt: Timestamp.fromDate(new Date()),
+		});
+	};
+	const submitReply = (reply, path) => {
+		return setDoc(doc(db, path, reply), {
+			reply: reply,
 			by: user.email,
 			commentedAt: Timestamp.fromDate(new Date()),
 		});
@@ -133,6 +140,7 @@ export const GeneralProvider = ({ children }) => {
 				logout,
 				ask,
 				submitComment,
+				submitReply,
 			}}>
 			{children}
 		</GeneralContext.Provider>

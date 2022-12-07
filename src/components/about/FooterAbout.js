@@ -65,15 +65,7 @@ const FooterAbout = () => {
 								Accusamus, at.
 							</p>
 						</div>
-						<div>
-							<p className='hover:text-costum-orange basic-transition'>
-								OPEN API
-							</p>
-							<p className='font-inter text-[0.8em] w-32 font-normal'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus, at.
-							</p>
-						</div>
+
 						<div>
 							<p className='hover:text-costum-orange basic-transition'>
 								FIREBASE
@@ -90,7 +82,7 @@ const FooterAbout = () => {
 					<iframe
 						src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.270756540587!2d109.2465123092041!3d-7.4352630925445755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea49d9f9885%3A0x62be0b6159700ec9!2sTelkom%20Institute%20of%20Technology%20Purwokerto!5e0!3m2!1sen!2sid!4v1669882258068!5m2!1sen!2sid'
 						height='200'
-						width='500'
+						width='700'
 						frameBorder='0'
 						style={{ border: 0 }}
 						aria-hidden='false'

@@ -24,11 +24,6 @@ const FooterHome = () => {
 					<h1 className='text-[1.2em] mb-3'>SITE MAP</h1>
 					<div className='text-[1em] md:text-[0.8em] flex gap-2 flex-col font-inter'>
 						<Link
-							to='home'
-							className='hover:text-costum-orange cursor-pointer basic-transition'>
-							EXPLORE HOME
-						</Link>
-						<Link
 							to='/'
 							className='hover:text-costum-orange cursor-pointer basic-transition'>
 							ABOUT

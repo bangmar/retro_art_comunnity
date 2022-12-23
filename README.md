@@ -1,5 +1,5 @@
-MIDTERM PROJECT
-===============
+MIDTERM PROJECT :  https://bangmar.github.io/retro_art_comunnity/
+=================================================================
 
 Web ini adalah web komunitas pencinta seni lukisan. halaman yang ada didalam website ini dalah halaman abaout sebagai landing page dan halaman home dimana user dapat melihat lukisan yang sedang di tayangkan oleh web pada waktu tertentu dan memberikan komentar mereka tentang lukisan yang ditampilkan. untuk saat ini website masih akan terus dikembangakan.
 
@@ -9,3 +9,5 @@ Web ini adalah web komunitas pencinta seni lukisan. halaman yang ada didalam web
 => itur yang akan dikembangkan dalam waktu dekat adalah fitur menambah kategory, likes, dan report
 
 Tools yang digunakan : React JS, Tailwind CSS, dan Firebase
+
+
